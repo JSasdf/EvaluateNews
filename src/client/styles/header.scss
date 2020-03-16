@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 10px 40px;
+  background-color: #8189f575;
+  & .ENA {
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+  }
+}

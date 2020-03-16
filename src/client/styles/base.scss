@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 25px auto;
+  &strong {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
